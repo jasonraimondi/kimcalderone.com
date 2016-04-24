@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Kimberly Calderone | UX / UI Designer
+email: kjcalderone@gmail.com
+description: Developer, Technologist, Geek
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.kimcalderone.com" # the base hostname & protocol for your site
+
+# Build settings
+# markdown: redcarpet
+# markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+# redcarpet:
+#   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+
+permalink: "/:categories/:slug/"
+
+sass:
+  style: nested
+  sourcemaps: true
+  load_paths:
+    - _sass
+    - node_modules/foundation-sites/scss
+
+exclude:
+- node_modules
+
+# gems:
+#   - octopress-autoprefixer

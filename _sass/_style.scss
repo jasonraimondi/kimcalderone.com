@@ -1,0 +1,23 @@
+@media screen and (max-width: 767px) {
+    .nav-menu {
+        background-color: $white;
+    }
+}
+
+#my-name {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    @include breakpoint(medium) {
+        font-size: 40px;
+    }
+}
+
+#my-subtitle {
+    font-size: 20px;
+
+    @include breakpoint(medium) {
+        font-size: 30px;
+    }
+}
