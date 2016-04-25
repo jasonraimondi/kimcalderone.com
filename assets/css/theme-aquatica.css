@@ -41,7 +41,7 @@
   color: #34526f;
 }
 .text-white {
-  color: #fff;
+  color: #fff !important;
 }
 .text-primary {
   color: #01a2a6;
