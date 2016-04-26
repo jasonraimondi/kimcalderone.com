@@ -2,9 +2,12 @@
 layout: default
 ---
 
-<header class="page-header" style="height:500px;">
-    <div class="background-image-holder parallax-background">
-        <img class="background-image" alt="Background Image" src="/assets/img/hero12.jpg">
+<header class="page-header">
+    <div class="background-image-holder parallax-background hidden-xs">
+        <img class="background-image" alt="Background Image" src="{{ '/assets/images/marbles/P2-All-Devices-Header_2.png' | prepend: site.baseurl }}">
+    </div>
+    <div class="background-image-holder visible-xs">
+        <img class="background-image" alt="Background Image" src="{{ '/assets/images/marbles/P2-All-Devices-Header_2-Mobile.png' | prepend: site.baseurl }}">
     </div>
 </header>
 
@@ -169,11 +172,11 @@ layout: default
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 content clearfix">
+            <div class="col-md-6 content col-sm-8 clearfix">
                 <div class="col-md-12 no-pad-left">
                     <h2 class="project-section-title">Working With Users &amp; Key Insights</h2>
                 </div>
-                <div class="col-md-6 no-pad-left">
+                <div class="col-md-12 no-pad-left">
                     <div class="feature feature-icon-left">
                         <div class="icon-holder">
                             <i class="icon icon-documents"></i>
@@ -192,7 +195,7 @@ layout: default
                     </div>
                 </div>
 
-                <div class="col-md-6 no-pad-left">
+                <div class="col-md-12 no-pad-left">
                     <div class="feature feature-icon-left">
                         <div class="icon-holder">
                             <i class="icon icon-lightbulb"></i>
@@ -211,11 +214,11 @@ layout: default
         </div>
     </div>
 
-  <!--   <div class="image-container col-md-5 col-sm-3 pull-right">
+    <div class="image-container col-md-5 col-sm-3 pull-right">
         <div class="background-image-holder">
             <img class="background-image" alt="Background Image" src="/assets/img/hero10.jpg">
         </div>
-    </div> -->
+    </div>
 
 </section>
 

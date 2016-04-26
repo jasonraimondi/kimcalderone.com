@@ -21,3 +21,13 @@
         font-size: 30px;
     }
 }
+
+.marbles-header {
+    max-height: 250px;
+    background-position: 0% 100% !important;
+    height: 500px;
+
+    @include breakpoint(medium) {
+        max-height: 100%;
+    }
+}
