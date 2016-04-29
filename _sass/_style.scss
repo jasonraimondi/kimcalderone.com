@@ -23,11 +23,13 @@
 }
 
 .marbles-header {
-    max-height: 250px;
-    background-position: 0% 100% !important;
-    height: 500px;
+    height: 40vh !important;
 
     @include breakpoint(medium) {
-        max-height: 100%;
+        height: 50vh !important;
+    }
+
+    @include breakpoint(large) {
+        height: 75vh !important;
     }
 }
