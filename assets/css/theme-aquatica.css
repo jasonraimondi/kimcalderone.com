@@ -1217,7 +1217,7 @@ img.phone-portrait {
 .feature-icon-left {
   overflow: hidden;
   margin-bottom: 40px;
-  float: left;
+  /*float: left;*/
 }
 .feature-icon-left .icon-holder {
   width: 45px;
