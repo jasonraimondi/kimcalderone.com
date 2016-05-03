@@ -1,6 +1,23 @@
+.container {
+    width: 90% !important;
+
+    @include breakpoint(medium) {
+        width: 85% !important;
+    }
+
+    @include breakpoint(large) {
+        width: 80% !important;
+    }
+
+    @include breakpoint(xlarge) {
+        width: 70% !important;
+    }
+}
+
+
 .flex-direction-nav a:before {
     padding-bottom: 25px;
-}}
+}
 
 .image-column {
     display: table;
@@ -24,3 +41,4 @@
         display: table-cell;
     }
 }
+
