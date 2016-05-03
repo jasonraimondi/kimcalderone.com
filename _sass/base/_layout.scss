@@ -1,3 +1,26 @@
 .flex-direction-nav a:before {
     padding-bottom: 25px;
+}}
+
+.image-column {
+    display: table;
+
+    .image-container {
+        margin-right: 25px;
+    }
+
+    .center {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .left-column {
+        float: none;
+        display: table-cell;
+    }
+
+    .right-column {
+        float: none;
+        display: table-cell;
+    }
 }

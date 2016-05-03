@@ -1,3 +1,12 @@
+.image-column {
+    min-height: 100%;
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .project-overview-section .title {
     margin-bottom: 10px;
 }
