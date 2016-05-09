@@ -30,6 +30,31 @@
 }
 
 
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .top-margin-small {
+        margin-top: 25px;
+    }
+    .top-margin-medium {
+        margin-top: 35px;
+    }
+    .top-margin-large {
+        margin-top: 75px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .top-margin-small {
+        margin-top: 50px;
+    }
+    .top-margin-medium {
+        margin-top: 100px;
+    }
+    .top-margin-large {
+        margin-top: 150px;
+    }
+}
+
 .flex-direction-nav a:before {
     padding-bottom: 25px;
 }
