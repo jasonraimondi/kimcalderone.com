@@ -21,15 +21,17 @@
 
         <div class="row nav-menu">
             <div class="col-md-2 col-sm-3 columns">
-                <img class="logo logo-light" alt="Logo" src="{{ '/assets/images/logo/logo-light.png' | prepend: site.baseurl }}">
-                <img class="logo logo-dark" alt="Logo" src="{{ '/assets/images/logo/logo-dark.png' | prepend: site.baseurl }}">
+                <a href="{{ '/' | prepend: site.baseurl }}">
+                    <img class="logo logo-light" alt="Logo" src="{{ '/assets/images/logo/logo-light.png' | prepend: site.baseurl }}">
+                    <img class="logo logo-dark" alt="Logo" src="{{ '/assets/images/logo/logo-dark.png' | prepend: site.baseurl }}">
+                </a>
             </div>
 
             <div class="col-md-10 col-sm-9 columns">
                 <ul class="menu">
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="{{ '/work' | prepend: site.baseurl }}">Work</a></li>
+                    <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+                    <li><a href="{{ '/contact' | prepend: site.baseurl }}">Contact</a></li>
                 </ul>
 
                 <ul class="social-icons text-right">

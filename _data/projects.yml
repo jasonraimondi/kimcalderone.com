@@ -1,0 +1,32 @@
+- title: Marbles the Brain Store
+  type: Responsive Website Redesign
+  image: /assets/images/something/P2-iPhone-Mock5_1280x720-960x720.png
+  link: /portfolio/marbles-the-brain-store
+  filters:
+    - uxui
+    - visual
+
+- title: Business and Pleasure
+  type: Mobile Application
+  image: /assets/images/something/Mock3-IPHONE_2000x667_slider-600x667.jpg
+  link: /portfolio/business-and-pleasure
+  filters:
+    - uxui
+    - visual
+
+- title: Fossil Franchise Partnership
+  type: Book and Package Design
+  image: /assets/images/graphic-design/DSC_0040.jpg
+  link: /portfolio/fossil-franchise-partnership
+  filters:
+    - print
+    - visual
+
+- title: Global Initiative Fossil Travel (GIFT) Package
+  type: Book and Package Design
+  image: /assets/images/graphic-design/DSC_0037.jpg
+  link: /portfolio/fossil-franchise-partnership
+  filters:
+    - print
+    - visual
+
