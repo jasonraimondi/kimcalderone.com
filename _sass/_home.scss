@@ -1,0 +1,23 @@
+#my-name {
+    font-size: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    @include breakpoint(medium) {
+        font-size: 50px;
+    }
+
+    @include breakpoint(large) {
+        font-size: 60px;
+    }
+}
+
+#my-subtitle {
+    font-size: 20px;
+
+    @include breakpoint(medium) {
+        font-size: 30px;
+    }
+}
