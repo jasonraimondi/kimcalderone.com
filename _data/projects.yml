@@ -25,8 +25,31 @@
 - title: Global Initiative Fossil Travel (GIFT) Package
   type: Book and Package Design
   image: /assets/images/graphic-design/DSC_0037.jpg
-  link: /portfolio/fossil-franchise-partnership
+  link: /portfolio/gift-package
   filters:
     - print
     - visual
 
+- title: Fossil Marketing
+  type: Book and Package Design
+  image: /assets/images/graphic-design/Straps_870pxWx720pxH.jpg
+  link: /portfolio/fossil-marketing
+  filters:
+    - print
+    - visual
+
+- title: Michael Kors
+  type: Book and Package Design
+  image: /assets/images/graphic-design/TR0353_EmailBlast-MKFallAdStyles_860x1220-featuredimage.jpg
+  link: /portfolio/michael-kors
+  filters:
+    - print
+    - visual
+
+- title: Skagen
+  type: Book and Package Design
+  image: /assets/images/graphic-design/TR0353_EmailBlast-MKFallAdStyles_860x1220-featuredimage.jpg
+  link: /portfolio/michael-kors
+  filters:
+    - print
+    - visual
