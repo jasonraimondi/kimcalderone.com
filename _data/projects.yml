@@ -1,6 +1,6 @@
 - title: Marbles the Brain Store
   type: Responsive Website Redesign
-  image: /assets/images/something/P2-iPhone-Mock5_1280x720-960x720.png
+  image: /assets/images/marbles/P2-iMac1-originalcrop-thumb.png
   link: /portfolio/marbles-the-brain-store
   filters:
     - uxui
@@ -8,7 +8,7 @@
 
 - title: Business and Pleasure
   type: Mobile Application
-  image: /assets/images/something/Mock3-IPHONE_2000x667_slider-600x667.jpg
+  image: /assets/images/business/P3-IPHONE-thumb_600x667.jpg
   link: /portfolio/business-and-pleasure
   filters:
     - uxui
