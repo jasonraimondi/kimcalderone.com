@@ -1,23 +1,68 @@
 #my-name {
     font-size: 34px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-transform: uppercase;
 
     @include breakpoint(medium) {
         font-size: 50px;
+        margin-bottom: 20px;
     }
 
     @include breakpoint(large) {
         font-size: 60px;
+        margin-bottom: 15px;
+    }
+}
+
+#my-title {
+     font-size: 20px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    @include breakpoint(medium) {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    @include breakpoint(large) {
+        font-size: 35px;
+        margin-bottom: 15px;
     }
 }
 
 #my-subtitle {
     font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.2;
 
     @include breakpoint(medium) {
         font-size: 30px;
     }
+}
+
+#my-name-nocaps {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+    @include breakpoint(medium) {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    @include breakpoint(large) {
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+}
+
+#btn-custom {
+    margin-top: 50px;
 }
