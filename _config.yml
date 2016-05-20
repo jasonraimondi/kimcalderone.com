@@ -21,13 +21,6 @@ url: "https://www.kimcalderone.com" # the base hostname & protocol for your site
 
 permalink: "/:categories/:slug/"
 
-sass:
-  style: nested
-  sourcemaps: true
-  load_paths:
-    - _sass
-    - node_modules/foundation-sites/scss
-
 exclude:
 - node_modules
 
