@@ -9,7 +9,7 @@
 title: "Kimberly Calderone | UX / UI Designer"
 email: kjcalderone@gmail.com
 description: "UX / UI Designer"
-baseurl: "/kimcalderone.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kimcalderone.com" # the base hostname & protocol for your site
 
 # Build settings
