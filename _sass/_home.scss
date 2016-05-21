@@ -6,27 +6,27 @@
     text-transform: uppercase;
 
     @include breakpoint(medium) {
-        font-size: 50px;
+        font-size: 55px;
         margin-bottom: 20px;
     }
 
     @include breakpoint(large) {
-        font-size: 60px;
-        margin-bottom: 15px;
+        font-size: 70px;
+        margin-bottom: 20px;
     }
 }
 
 #my-title {
-     font-size: 20px;
+    font-size: 20px;
     letter-spacing: 8px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     line-height: 1.2;
     text-transform: uppercase;
 
     @include breakpoint(medium) {
-        font-size: 35px;
-        margin-bottom: 20px;
+        font-size: 30px;
+        margin-bottom: 15px;
     }
 
     @include breakpoint(large) {
@@ -36,13 +36,13 @@
 }
 
 #my-subtitle {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     font-weight: 300;
     line-height: 1.2;
 
     @include breakpoint(medium) {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 

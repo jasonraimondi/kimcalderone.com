@@ -14,6 +14,14 @@
     - uxui
     - visual
 
+- title: Get Stoked!
+  type: Responsive Website Redesign
+  image: /assets/images/getstoked/GetStoked.jpg
+  link: /portfolio/get-stoked
+  filters:
+    - uxui
+    - visual
+
 - title: Fossil Franchise Partnership
   type: Book and Package Design
   image: /assets/images/graphic-design/DSC_0040.jpg
@@ -39,14 +47,6 @@
     - visual
 
 - title: Michael Kors
-  type: Book and Package Design
-  image: /assets/images/graphic-design/TR0353_EmailBlast-MKFallAdStyles_860x1220-featuredimage.jpg
-  link: /portfolio/michael-kors
-  filters:
-    - print
-    - visual
-
-- title: Skagen
   type: Book and Package Design
   image: /assets/images/graphic-design/TR0353_EmailBlast-MKFallAdStyles_860x1220-featuredimage.jpg
   link: /portfolio/michael-kors
