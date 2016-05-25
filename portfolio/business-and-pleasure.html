@@ -468,22 +468,50 @@ layout: default
 
         <div class="projects-container">
 
-            {% for project in (site.data.projects | sample: 3) %}
-                <div class="col-md-4 col-sm-6 no-pad project print image-holder">
-                    <div class="background-image-holder">
-                        <img class="background-image" alt="Background Image" src="{{ project.image | prepend: site.baseurl }}">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <h3 class="text-white"><strong>{{ project.title }}</strong></h3>
-                            <p class="text-white">
-                                {{ project.type }}
-                            </p>
-                            <a href="{{ project.link | prepend: site.baseurl }}" class="btn btn-primary btn-white">See Project</a>
-                        </div>
+            <div class="col-md-4 col-sm-6 no-pad project print image-holder">
+                <div class="background-image-holder">
+                    <img class="background-image" alt="Background Image" src="{{ '/assets/images/marbles/P2-iMac1-originalcrop-thumb.png' | prepend: site.baseurl }}">
+                </div>
+                <div class="hover-state">
+                    <div class="align-vertical">
+                        <h3 class="text-white"><strong>Marbles</strong> the Brain Store</h3>
+                        <p class="text-white">
+                            Responsive Website Redesign
+                        </p>
+                        <a href="{{ '/portfolio/marbles-the-brain-store' site.baseurl }}" class="btn btn-primary btn-white">See Project</a>
                     </div>
                 </div>
-            {% endfor %}
+            </div>
+
+            <div class="col-md-4 col-sm-6 no-pad project branding image-holder">
+                <div class="background-image-holder">
+                    <img class="background-image" alt="Background Image" src="{{ '/assets/images/getstoked/GetStoked.jpg' | prepend: site.baseurl }}">
+                </div>
+                <div class="hover-state">
+                    <div class="align-vertical">
+                        <h3 class="text-white"><strong>Get Stoked</strong></h3>
+                        <p class="text-white">
+                            Responsive Website Redesign
+                        </p>
+                        <a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 no-pad project print image-holder">
+                <div class="background-image-holder">
+                    <img class="background-image" alt="Background Image" src="{{ '/assets/images/graphic-design/DSC_0040.jpg' | prepend: site.baseurl }}">
+                </div>
+                <div class="hover-state">
+                    <div class="align-vertical">
+                        <h3 class="text-white"><strong>Fossil</strong> Franchise Partnership</h3>
+                        <p class="text-white">
+                            Book and Package Design
+                        </p>
+                        <a href="/portfolio/fossil-franchise-partnership" class="btn btn-primary btn-white">See Project</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
