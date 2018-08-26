@@ -1,3 +1,7 @@
+html {
+    font-size: 18px;
+}
+
 @media screen and (max-width: 767px) {
     .nav-menu {
         background-color: $white;
@@ -13,5 +17,37 @@
 
     @include breakpoint(large) {
         height: 75vh !important;
+    }
+}
+
+#kim-header--container {
+    min-height: 667px;
+}
+
+#kim-header--title-name {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#kim-header--title {
+    font-size: 24px;
+    line-height: 1.1;
+    margin-bottom: 9px;    
+}
+
+@media screen and (min-width: 767px) {
+    #kim-header--container {
+        min-height: 800px;
+    }
+
+    #kim-header--title-name {
+        font-size: 18px;
+    }
+
+    #kim-header--title {
+        font-size: 48px;
     }
 }
