@@ -22,19 +22,20 @@
         <div class="row nav-menu">
             <div class="col-md-2 col-sm-3 columns">
                 <a href="{{ '/' | prepend: site.baseurl }}">
-                    <img class="logo logo-light" alt="Logo" src="{{ '/assets/images/logo/logo-light.png' | prepend: site.baseurl }}">
+                    <!-- <img class="logo logo-light" alt="Logo" src="{{ '/assets/images/logo/logo-light.png' | prepend: site.baseurl }}"> -->
+                    <img class="logo logo-light" alt="Logo" src="{{ '/assets/images/logo/logo-dark.png' | prepend: site.baseurl }}">
                     <img class="logo logo-dark" alt="Logo" src="{{ '/assets/images/logo/logo-dark.png' | prepend: site.baseurl }}">
                 </a>
             </div>
 
             <div class="col-md-10 col-sm-9 columns">
-                <ul class="menu">
-                    <li><a href="{{ '/' | prepend: site.baseurl }}">Work</a></li>
-                    <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-                    <li><a href="{{ '/contact' | prepend: site.baseurl }}">Contact</a></li>
+                <ul id="kim-nav--menu" class="menu">
+                    <li><a class="text-black" href="{{ '/' | prepend: site.baseurl }}">Work</a></li>
+                    <li><a class="text-black" href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+                    <li><a class="text-black" href="{{ '/contact' | prepend: site.baseurl }}">Contact</a></li>
                 </ul>
 
-                <ul class="social-icons text-right">
+                <ul id="kim-nav--social" class="social-icons text-right">
                     <li>
                         <a href="//www.instagram.com/kimmerss/">
                             <i class="icon social_instagram"></i>
