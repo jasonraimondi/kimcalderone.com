@@ -1,3 +1,12 @@
+.feature > p {
+  max-width: 1060px;
+  margin: 0 auto 11px;
+  color: #777777;
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
 .fifty-column-with-image {
   display: flex;
   flex-direction: column;
@@ -32,6 +41,18 @@
 
 .revision-image {
   background: url(/assets/images/revision/sharepack_in_use-edit.png);
+  background-size: cover;
+  min-height: 600px;
+}
+
+.revision-select-functionimage {
+  background: url(/assets/images/revision/select-function.png);
+  background-size: cover;
+  min-height: 600px;
+}
+
+.revision-user-testing-image {
+  background: url(/assets/images/revision/user-testing-crop.png);
   background-size: cover;
   min-height: 600px;
 }

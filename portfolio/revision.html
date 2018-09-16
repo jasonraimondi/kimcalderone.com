@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="pure-text-centered">
+<section class="">
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
@@ -27,10 +27,10 @@ layout: default
 <section class="primary-features duplicatable-content">
     <div class="container">
         <div class="row">
-            <div class="text-center col-sm-12 clearfix">
+            <div class="col-sm-12 clearfix">
                 <div class="feature feature-icon-small">
-                    <i class="icon icon-strategy"></i>
-                    <h2 class="text-white" style="margin-bottom: 20px"><strong>My Role</strong></h2>
+                    <div class="text-center"><i class="icon icon-strategy"></i></div>
+                    <h2 class="text-white text-center" style="margin-bottom: 20px"><strong>My Role</strong></h2>
                     <p class="text-white">
                         I was responsible for the user experience and final interface design of the iOS app. I lead the UX work, producing all major deliverables and presenting them
                         to the client between May 2016 and March 2017. I worked alongside a Product Manager, who assisted in the user research and testing in the
@@ -61,39 +61,20 @@ layout: default
     </div>
 </div>
 
-<section>
+<section class="">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-6 text-center left-column">
-                <video autoplay="true" loop="true" height="700" poster="{{ '/assets/images/marbles/P2-mobile-single-gif-KEYFRAMED.gif' | prepend: site.baseurl }}">
-                    <source type="video/webm" src="{{ '/assets/videos/marbles-the-brain-store/P2-mobile-single-gif-KEYFRAMED.webm' | prepend: site.baseurl }}">
-                    <source type="video/ogg" src="{{ '/assets/videos/marbles-the-brain-store/P2-mobile-single-gif-KEYFRAMED.ogv' | prepend: site.baseurl }}">
-                    <source type="video/mp4" src="{{ '/assets/videos/marbles-the-brain-store/P2-mobile-single-gif-KEYFRAMED.mp4' | prepend: site.baseurl }}">
-                </video>
-            </div>
-            <div class="col-xs-12 col-md-6 right-column top-margin-medium">
-
-            </div>
-        </div>
-    </div>
-    <div class="fifty-image revision-image">
-    </div>
-</section>
-
-<section class="pure-text-centered">
-    <div class="container">
-        <div class="row">
-            <div class="text-center col-sm-12 clearfix">
+            <div class="col-sm-12 clearfix">
                 <div class="feature feature-icon-small">
-                    <i class="icon icon-streetsign"></i>
-                    <h2 class="text-black" style="margin-bottom: 20px">
+                    <div class="text-center"><i class="icon icon-streetsign"></i></div>
+                    <h2 class="text-black text-center" style="margin-bottom: 20px">
                         <strong>The Approach</strong>
                     </h2>
                     <p class="text-black">
-                            Understanding the soldiers' needs and the use cases for the battery's remote app was essential. In order to validate our assumptions and narrow down
-                            the MVP feature set, we traveled to a US Air Force Base to test out our lean prototype. There, we conducted user interviews, contextual inquiry, and
-                            several feature prioritizing exercises - including the $100 test and Kano model - before performing task analyses on the prototype with the soliders.
-                            While unpacking all the feedback we received, we found an MVP starting to take shape.
+                        Understanding the soldiers' needs and the use cases for the battery's remote app was essential. In order to validate our assumptions and narrow down
+                        the MVP feature set, we traveled to a US Air Force Base to test out our lean prototype. There, we conducted user interviews, contextual inquiry, and
+                        several feature prioritizing exercises - including the $100 test and Kano model - before performing task analyses on the prototype with the soliders.
+                        While unpacking all the feedback we received, we found an MVP starting to take shape.
                     </p>
                 </div>
             </div>
@@ -101,57 +82,66 @@ layout: default
     </div>
 </section>
 
-<section class="pure-text-centered">
-        <div class="container">
-            <div class="row">
-                <div class="text-center col-sm-12 clearfix">
-                    <div class="feature feature-icon-small">
-                        <i class="icon icon-lightbulb"></i>
-                        <h2 class="text-black" style="margin-bottom: 20px">
-                            <strong>Key Takeaways</strong>
-                        </h2>
-                        <p class="lead">
-                            User interviews and contextual inquiry revealed that during a mission, the soldiers use their smart devices in landscape mode. The vests they wear
-                            have a special compartment in the front that holds their device horizontally, and allows the soldiers to have hands-free access to it. This feedback
-                            helped us understand the need for the app to support both portrait and landscape orientation.
-                            </p>
-                            <p class="lead">
-                            While testing the prototype, soldiers emphasized the importance of push notifications generated by the app. Once on the field, the soldiers did not want to switch over to
-                            the Revision app to check on the battery. More time spent in the Revision app means less time in their military apps, which help them navigate their positions and track targets.
-                            We worked with the soldiers and the Revision team to hone in on which types of alerts should be pushed.
-                            </p>
-                            <p class="lead">
-                            Some of our initial assumptions about the app's potential feature set were incorrect. During the $100 test we conducted with the soldiers, our ideas for a
-                            "stealth mode" and "auto shut-off power to ports" were nixed. The use cases we has reasoned for those features ended up being common or important enough to make
-                             the cut for the MVP.
-                            </p>
-                        </p>
-                    </div>
+<div class="fifty-column-with-image">
+    <div class="fifty-image revision-select-functionimage">
+    </div>
+    <div class="fifty-image revision-user-testing-image">
+    </div>
+</div>
+
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 clearfix">
+                <div class="feature feature-icon-small">
+                    <div class="text-center"><i class="icon icon-lightbulb"></i></div>
+                    <h2 class="text-black text-center" style="margin-bottom: 20px">
+                        <strong>Key Takeaways</strong>
+                    </h2>
+                    <p class="lead">
+                        User interviews and contextual inquiry revealed that during a mission, the soldiers use their smart devices in landscape mode. The vests they wear
+                        have a special compartment in the front that holds their device horizontally, and allows the soldiers to have hands-free access to it. This feedback
+                        helped us understand the need for the app to support both portrait and landscape orientation.
+                    </p>
+                    <p class="lead">
+                        While testing the prototype, soldiers emphasized the importance of push notifications generated by the app. Once on the field, the soldiers did not want to switch over to
+                        the Revision app to check on the battery. More time spent in the Revision app means less time in their military apps, which help them navigate their positions and track targets.
+                        We worked with the soldiers and the Revision team to hone in on which types of alerts should be pushed.
+                    </p>
+                    <p class="lead">
+                        Some of our initial assumptions about the app's potential feature set were incorrect. During the $100 test we conducted with the soldiers, our ideas for a
+                        "stealth mode" and "auto shut-off power to ports" were nixed. The use cases we has reasoned for those features ended up being common or important enough to make
+                        the cut for the MVP.
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="pure-text-centered">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center col-sm-12 clearfix">
-                        <div class="feature feature-icon-small">
-                            <i class="icon icon-mobile"></i>
-                            <h2 class="text-black" style="margin-bottom: 20px">
-                                <strong>Final Design</strong>
-                            </h2>
-                            <p class="text-black">
-
-                                With the new companion app, the bigger screen called for more intuitive interactions, better learnability, and increased memorability. The final app design is flexible and adaptable for a soldier's day-to-day needs of controlling the battery pack. The app is compatible with any Android phone or tablet,
-                                and soldiers can fruidly switch orientations. This allows them to make changes to the battery before a mission in portrait mode, and later make tweaks on the field in landscape mode, when
-                                their phones are mounted to their vests. To further enhance the experience of using the app, our team created custom graphics to allow soldiers to quickly identify the different ports on the battery, and the pieces of equipment compatible to charge.
-                            </p>
-                        </div>
-                    </div>
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 clearfix">
+                <div class="feature feature-icon-small">
+                    <div class="text-center"><i class="icon icon-mobile"></i></div>
+                    <h2 class="text-black text-center" style="margin-bottom: 20px">
+                        <strong>Final Design</strong>
+                    </h2>
+                    <p class="text-black">
+                        With the new companion app, the bigger screen called for more intuitive interactions, better learnability, and increased memorability. The final app design is flexible and adaptable for a soldier's day-to-day needs of controlling the battery pack. The app is compatible with any Android phone or tablet,
+                        and soldiers can fruidly switch orientations. This allows them to make changes to the battery before a mission in portrait mode, and later make tweaks on the field in landscape mode, when
+                        their phones are mounted to their vests. To further enhance the experience of using the app, our team created custom graphics to allow soldiers to quickly identify the different ports on the battery, and the pieces of equipment compatible to charge.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
+<div>
+    <img src="{{ '/assets/images/revision/final-mockups.png' | prepend: site.baseurl }}" alt="revision image">
+</div>
 
 <section class="no-pad-bottom no-pad-top projects-gallery">
     <div class="projects-wrapper clearfix">
@@ -163,7 +153,8 @@ layout: default
                 <div class="hover-state">
                     <div class="align-vertical">
                         <h3 class="text-white">
-                            <strong>Business</strong> &amp; Pleasure</h3>
+                            <strong>Business</strong> &amp; Pleasure
+                        </h3>
                         <p class="text-white">
                             Mobile App Design
                         </p>
@@ -194,7 +185,8 @@ layout: default
                 <div class="hover-state">
                     <div class="align-vertical">
                         <h3 class="text-white">
-                            <strong>Fossil</strong> Franchise Partnership</h3>
+                            <strong>Fossil</strong> Franchise Partnership
+                        </h3>
                         <p class="text-white">
                             Book and Package Design
                         </p>
