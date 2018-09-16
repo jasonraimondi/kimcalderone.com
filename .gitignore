@@ -1,3 +1,16 @@
 _site
 .sass-cache
 .jekyll-metadata
+Gemfile.lock
+.idea/encodings.xml
+.idea/jsLibraryMappings.xml
+.idea/kimcalderone.com.iml
+.idea/markdown-navigator.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/php.xml
+.idea/typescript-compiler.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/markdown-navigator/profiles_settings.xml
