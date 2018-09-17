@@ -1,3 +1,5 @@
+$max-width: 1060px;
+
 .section-introduction {
   padding: 100px 0 50px;
 
@@ -8,11 +10,16 @@
   @media screen and (min-width: 1400px) {
     padding: 200px 0 150px;
   }
+
+  .section-introduction-content {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
 }
 
 .feature > p,
 .feature li {
-  max-width: 1060px;
+  max-width: $max-width;
   margin: 0 auto 11px;
   color: #777777;
   font-size: 16px;
