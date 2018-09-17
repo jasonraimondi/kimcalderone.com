@@ -1,3 +1,15 @@
+.section-introduction {
+  padding: 100px 0 50px;
+
+  @media screen and (min-width: 800px) {
+    padding: 150px 0 100px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    padding: 200px 0 150px;
+  }
+}
+
 .feature > p,
 .feature li {
   max-width: 1060px;
