@@ -36,7 +36,7 @@ $max-width: 1060px;
 .fifty-column-with-image {
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 500px) {
     flex-direction: row;
   }
 
