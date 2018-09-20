@@ -17,6 +17,12 @@ $max-width: 1060px;
   }
 }
 
+.feature h6 {
+  max-width: $max-width;
+  margin: 0 auto 11px;
+}
+
+
 .feature > p,
 .feature li {
   max-width: $max-width;
@@ -73,6 +79,24 @@ $max-width: 1060px;
 
 .revision-user-testing-image {
   background: url(/assets/images/revision/user-testing-crop.png);
+  background-size: cover;
+  min-height: 600px;
+}
+
+.ou-image {
+  background: url(/assets/images/ou-innovate/OU-campus2-crop.png);
+  background-size: cover;
+  min-height: 600px;
+}
+
+.ou-og-home-image {
+  background: url(/assets/images/ou-innovate/ou-og-home.png);
+  background-size: cover;
+  min-height: 600px;
+}
+
+.ou-new-home-image {
+  background: url(/assets/images/ou-innovate/ou-new-home.png);
   background-size: cover;
   min-height: 600px;
 }
