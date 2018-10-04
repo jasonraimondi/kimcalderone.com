@@ -12,7 +12,7 @@ description: "UX / UI Designer"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kimcalderone.com" # the base hostname & protocol for your site
 
-resumeLink: "/assets/resume/KimCalderone-UXDesigner-Resume-1.0.0.pdf"
+resumeLink: "/assets/resume/KimCalderone-UXDesigner-Resume-1.2.0.pdf"
 
 # Build settings
 # markdown: redcarpet
