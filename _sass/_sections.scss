@@ -101,8 +101,8 @@ $max-width: 1060px;
   min-height: 600px;
 }
 
-.fifty-fifty-images { 
-  @media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
+  .fifty-fifty-images { 
     display: flex;
     
       img {
