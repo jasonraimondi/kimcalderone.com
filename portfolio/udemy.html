@@ -8,12 +8,12 @@ layout: default
                 <div class="text-center">
                     <span class="sub alt-font text-center">User Research &amp; UX Design</span>
                     <h1 style="margin-bottom: 20px;">
-                            <strong>Revision SharePack App</strong>
+                            <strong>Udemy Instructor App</strong>
                         </h1>
                 </div>
                 <div class="section-introduction-content">
                     <p class="lead">
-                        Revision is a hardware solutions provider specializing in military-grade protective equipment, power management, and integrated systems. Revision recognized that modern day soldiers were in need of an eco-friendly power solution that is optimized for a soldier’s day-to-day use. As a result, they created the rechargable, versatile, and bomb-proof SharePack battery. All the battery was missing was an intuitive interface in the form of a companion app.
+                       Udemy is an educational marketplace for learning and teaching online courses. Students can master new skills by learning from an extensive library of over 80,000 courses taught by instructors who are masters at their craft. Udemy provides tools which enable instructors to create a course, promote it and earn money from student tuition charges. Udemy instructors create their own content and curriculum, and interact with students who participate in their classes.
                     </p>
                 </div>
             </div>
@@ -22,7 +22,7 @@ layout: default
 </section>
 
 <div>
-    <img src="{{ '/assets/images/revision/revision-mobile-mockup-crop.png' | prepend: site.baseurl }}" alt="revision image">
+    <img src="{{ '/assets/images/udemy/udemy-header.png' | prepend: site.baseurl }}" alt="revision image">
 </div>
 
 <section class="primary-features duplicatable-content">
@@ -33,7 +33,7 @@ layout: default
                     <div class="text-center"><i class="icon icon-strategy"></i></div>
                     <h2 class="text-white text-center" style="margin-bottom: 20px"><strong>My Role</strong></h2>
                     <p class="text-white">
-                        I was responsible for the user experience and final interface design of the iOS app. I lead the UX work, producing all major deliverables and presenting them to the client between May 2016 and March 2017. I worked alongside a Product Manager, who assisted in the user research and testing in the discovery phase, as well as a Creative Director, who created the style guide for the visual design of the app.
+                        I worked closely with another UX Designer on Udemy's team on user research and testing, and I lead the charge for working on the app's new design. I produced all major UX and UI deliverables and presented them to the Udemy team between October 2017 and March 2018.
                     </p>
                 </div>
             </div>
@@ -50,11 +50,11 @@ layout: default
                     <h2 class="project-section-title"><strong>Project Overview</strong></h2>
                     <h6>Challenge</h6>
                     <p class="lead">
-                        The battery’s innovation and ease of use was hindered only by the tiny interface built into’s it’s front panel. Soldiers were having a hard time accessing the small screen while wearing the battery as a part of their gear.
+                        Along with creating a curriculum for their courses, Udemy's web platform allows the instructor to view and respond to their students' posts. However, Udemy's mobile app only supported the student side of consuming content and lacked an instructor login. Our goal was to create the instructor side of the app, which would allow them to communicate with their students via four different channels - direct messages, Q&A, assignments, and reviews.
                     </p>
                     <h6>Solution</h6>
                     <p class="lead">
-                        For maximum flexibility, we decided to create a mobile and tablet experience that allows a soldier to control the battery from the palm of their hand, without ever having to adjust the physical battery’s position. Since the military provides the soldiers with Samsung devices, we determined the format should be Android only.
+                        As a global platform, Udemy strives to support as many device types as possible. We designed the new instructor side for iPhone, iPad, Android phone, and Android tablet - all in portrait orientation. Since the main action instructors will take in the app is replying to messages and posts, we selected portrait orientation as the best format to display a feed-like list of inbound student questions.
                     </p>
                 </div>
             </div>
@@ -74,7 +74,7 @@ layout: default
                         <strong>The Approach</strong>
                     </h2>
                     <p class="text-black">
-                        Understanding the soldiers' needs and the use cases for the battery's remote app was essential. In order to validate our assumptions and narrow down the MVP feature set, we traveled to a US Air Force Base to test out our lean prototype. There, we conducted user interviews, contextual inquiry, and several feature prioritizing exercises - including the $100 test and Kano model - before performing task analyses on the prototype with the soliders. While unpacking all the feedback we received, we found an MVP starting to take shape.
+                        In order to create an optimized experience for the instructor, we needed to understand the most common ways instructors interact with their students, how often they interact, and what their workflows are like. The Udemy team booked us interviews with 8 of their current instructors, ranging from some of their most popular ones with tens of thousands of students at a time, to some very niche instructors who have intimate classes of 20 or less. After getting a solid understanding of how instructors communicate with students through Udemy, I built a robust InVision prototype to test with them. We did a round of testing, and I iterated the design accordingly to make a streamlined instructor side that isn't weighed down by feature bloat.
                     </p>
                 </div>
             </div>
@@ -83,8 +83,8 @@ layout: default
 </section>
 
 <div class="fifty-column-with-image">
-    <img src="{{ '/assets/images/ou-innovate/ou-og-home.png' | prepend: site.baseurl }}" alt="Oklahoma Stat old homepage">
-    <img src="{{ '/assets/images/ou-innovate/ou-new-home.png' | prepend: site.baseurl }}" alt="Oklahoma Stat new homepage">
+    <img src="{{ '/assets/images/udemy/udemy-interview-analysis.png' | prepend: site.baseurl }}" alt="Oklahoma Stat old homepage">
+    <img src="{{ '/assets/images/udemy/udemy-wireframes' | prepend: site.baseurl }}" alt="Oklahoma Stat new homepage">
 </div>
     
 
@@ -99,13 +99,15 @@ layout: default
                     </h2>
                     <ol>
                         <li>
-                            User interviews and contextual inquiry revealed that during a mission, the soldiers use their smart devices in landscape mode. The vests they wear have a special compartment in the front that holds their device horizontally, and allows the soldiers to have hands-free access to it. This feedback helped us understand the need for the app to support both portrait and landscape orientation.
+                            During our initial instructor interviews, we found that instructors with extremely large class sizes log into Udemy on their own to check their communication channels. Because their classes are so large, they know they will have new student posts every day and usually check multiple times throughout the day. For instructors with smaller class sizes, they rely on email notifications as an entry point to check their communication channels because they may not receive posts from students every day. This validated our assumption that the ability to customize push notifications would be an important feature for the different levels of instructors.
                         </li>
                         <li>
-                            While testing the prototype, soldiers emphasized the importance of push notifications generated by the app. Once on the field, the soldiers did not want to switch over to the Revision app to check on the battery. More time spent in the Revision app means less time in their military apps, which help them navigate their positions and track targets. We worked with the soldiers and the Revision team to hone in on which types of alerts should be pushed.
+                            While interviewing the instructors, we found that many of them brought up the idea of "canned responses". Instructors found that they end up typing the same replies over and over to studnts, and would like the ability to create response templates for common questions that students ask. We built this feature into the app for both direct messages and the Q&A section.
+                            
+                            We further validated this feature when testing the InVision prototype with instructors. They all reiterated the importance of canned responses to help increase their productivity and save them from typing redundant replies.
                         </li>
                         <li>
-                            Some of our initial assumptions about the app's potential feature set were incorrect. During the $100 test we conducted with the soldiers, our ideas for a "stealth mode" and "auto shut-off power to ports" were nixed. The use cases we has reasoned for those features ended up being common or important enough to make the cut for the MVP.
+                            Because some instructors like to go into their account and check all communication tabs and some only go into Udemy when they receive a notification from a student, we wanted to account for both workflows on the app's main feed. Keeping this in mind, I drafted a sitemap of the app, displaying how we could utilize tabs to quickly and easily go from viewing all messages to filtering by message type in one tap. Once the sitemap was finalized, I moved forward in designing the UI using Udemy's style guide, incorporating pre-existing components where I could for consistency.
                         </li>
                     </ol>
                 </div>
@@ -115,7 +117,7 @@ layout: default
 </section>
 
 <div>
-    <img src="{{ '/assets/images/revision/final-mockups.png' | prepend: site.baseurl }}" alt="revision image">
+    <img src="{{ '/assets/images/udemy/udemy-mockup-bottom.png' | prepend: site.baseurl }}" alt="revision image">
 </div>
 
 <section class="">
@@ -128,7 +130,7 @@ layout: default
                         <strong>Final Design</strong>
                     </h2>
                     <p class="text-black">
-                        With the new companion app, the bigger screen called for more intuitive interactions, better learnability, and increased memorability. The final app design is flexible and adaptable for a soldier's day-to-day needs of controlling the battery pack. The app is compatible with any Android phone or tablet, and soldiers can fruidly switch orientations. This allows them to make changes to the battery before a mission in portrait mode, and later make tweaks on the field in landscape mode, when their phones are mounted to their vests. To further enhance the experience of using the app, our team created custom graphics to allow soldiers to quickly identify the different ports on the battery, and the pieces of equipment compatible to charge.
+                        The new instructor side of the app opens up opportunities for instructor to student communication. Instructors can interact with their students without being tied to their desktop computers, and can respond at their leisure. Although instructors with high volume classes and instructors with smaller classes had different needs, the app is streamlined for both user types. Robust filtering and canned responses increase productivity for instructors so they can respond to students quickly and efficiently. Because a mobile app can blur the line between work day and free time, instructors can customize when and how they will receive push notifications.
                     </p>
                 </div>
             </div>
