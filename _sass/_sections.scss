@@ -68,7 +68,14 @@ $max-width: 1060px;
 .udemy-image {
   background: url(/assets/images/udemy/udemy-browser.png);
   background-size: cover;
-  min-height: 600px;
+  min-height: 300px;
+
+  @media only screen and (min-width: 800px) {
+    min-height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .revision-image {
