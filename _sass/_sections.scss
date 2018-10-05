@@ -65,6 +65,12 @@ $max-width: 1060px;
   }
 }
 
+.udemy-image {
+  background: url(/assets/images/udemy/udemy-browser.png);
+  background-size: cover;
+  min-height: 600px;
+}
+
 .revision-image {
   background: url(/assets/images/revision/sharepack_in_use-edit.png);
   background-size: cover;
@@ -102,9 +108,9 @@ $max-width: 1060px;
 }
 
 @media screen and (min-width: 767px) {
-  .fifty-fifty-images { 
+  .fifty-fifty-images {
     display: flex;
-    
+
       img {
         display: block;
         width: 50%;
